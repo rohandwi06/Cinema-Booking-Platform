@@ -1,0 +1,250 @@
+# app.http - Cinema Booking Platform API Requests
+
+###
+# 1. Authentication APIs
+
+# @name registerUser
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "name": "Jenny Doe",
+    "email": "jenny@example.com",
+    "password": "jennyPassword123",
+    "mobile": "+919876543219",
+    "dateOfBirth": "1980-01-01"
+}
+
+###
+# @name loginUser
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "jenny@example.com",
+    "password": "jennyPassword123"
+}
+
+###
+# Get Admin Token
+# Use admin@example.com / adminpassword
+# @name adminLogin
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin@example.com",
+    "password": "adminpassword"
+}
+
+###
+# 2. Location APIs
+
+# @name getCities
+GET http://localhost:3000/api/cities
+Accept: application/json
+
+###
+# 3. Movie APIs
+
+# @name getMovies
+GET http://localhost:3000/api/movies?city=1&language=English&format=IMAX
+Accept: application/json
+
+###
+# @name getMovieDetails
+GET http://localhost:3000/api/movies/1
+Accept: application/json
+
+###
+# @name getUpcomingMovies
+GET http://localhost:3000/api/movies/upcoming
+Accept: application/json
+
+###
+# 4. Theater APIs
+
+# @name getTheatersByCity
+GET http://localhost:3000/api/theaters?cityId=1
+Accept: application/json
+
+###
+# @name getTheatersByCityAndMovie
+GET http://localhost:3000/api/theaters?cityId=1&movieId=1
+Accept: application/json
+
+###
+# 5. Show APIs
+
+# @name getShowsForMovie
+# IMPORTANT: Replace {TODAY_DATE} with current date (e.g., 2024-06-18)
+# And ensure movieId, cityId match existing data.
+GET http://localhost:3000/api/shows?movieId=1&cityId=1&date=2030-01-01
+Accept: application/json
+
+###
+# 6. Seat APIs
+
+# @name getShowSeats
+# IMPORTANT: Replace {SHOW_ID} with an actual show ID from /api/shows response
+GET http://localhost:3000/api/shows/0/seats
+Accept: application/json
+
+###
+# 7. Booking APIs
+
+# @name createBooking
+# Authentication required (Bearer Token from loginUser request)
+# IMPORTANT: Use an actual showId and available seats from /api/shows/{showId}/seats
+POST http://localhost:3000/api/bookings/create
+Content-Type: application/json
+Authorization: Bearer {{loginUser.response.body.token}}
+
+{
+    "showId": 1,
+    "seats": ["H1", "H2"],
+    "userDetails": {
+        "email": "testuser@example.com",
+        "mobile": "+919876543211"
+    }
+}
+
+###
+# @name getUserBookings
+# Authentication required (Bearer Token from loginUser request)
+GET http://localhost:3000/api/bookings
+Accept: application/json
+Authorization: Bearer {{loginUser.response.body.token}}
+
+###
+# @name getBookingDetails
+# Authentication required (Bearer Token from loginUser request)
+# IMPORTANT: Replace {BOOKING_REF} with an actual booking reference from createBooking response
+GET http://localhost:3000/api/bookings/{{createBooking.response.body.bookingId}}
+Accept: application/json
+Authorization: Bearer {{loginUser.response.body.token}}
+
+###
+# @name cancelBooking
+# Authentication required (Bearer Token from loginUser request)
+# IMPORTANT: Replace {BOOKING_REF} with an actual booking reference.
+# Note: Cancellation only allowed 2 hours before show.
+POST http://localhost:3000/api/bookings/{{createBooking.response.body.bookingId}}/cancel
+Content-Type: application/json
+Authorization: Bearer {{loginUser.response.body.token}}
+
+###
+# 8. Food & Beverage APIs
+
+# @name getFnbMenu
+GET http://localhost:3000/api/fnb/menu
+Accept: application/json
+
+###
+# @name orderFnb
+# Authentication required (Bearer Token from loginUser request)
+# IMPORTANT: Replace {BOOKING_REF} with an actual booking reference that is CONFIRMED and PAID.
+# You might need to confirm a booking via the payment API first.
+POST http://localhost:3000/api/fnb/order
+Content-Type: application/json
+Authorization: Bearer {{loginUser.response.body.token}}
+
+{
+    "bookingId": "PVR123456",
+    "items": [
+        { "itemId": 1, "quantity": 1 },
+        { "itemId": 4, "quantity": 2 }
+    ]
+}
+
+###
+# 9. Payment APIs
+
+# @name initiatePayment
+# Authentication required (Bearer Token from loginUser request)
+# IMPORTANT: Replace {BOOKING_REF} with an actual booking reference from createBooking that is still PENDING.
+POST http://localhost:3000/api/payments/initiate
+Content-Type: application/json
+Authorization: Bearer {{loginUser.response.body.token}}
+
+{
+    "bookingId": "{{createBooking.response.body.bookingId}}",
+    "paymentMethod": "card",
+    "includesFnb": false
+}
+
+###
+# @name confirmPayment
+# Authentication required (Bearer Token from loginUser request)
+# IMPORTANT: Replace {BOOKING_REF} with an actual booking reference and {TRANSACTION_ID} from initiatePayment.
+POST http://localhost:3000/api/payments/confirm
+Content-Type: application/json
+Authorization: Bearer {{loginUser.response.body.token}}
+
+{
+    "bookingId": "{{initiatePayment.response.body.bookingId}}",
+    "transactionId": "{{initiatePayment.response.body.transactionId}}",
+    "status": "success"
+}
+
+###
+# 10. Admin APIs (Bonus)
+
+# @name adminAddMovie
+# Admin authentication required (Bearer Token from adminLogin request)
+POST http://localhost:3000/api/admin/movies
+Content-Type: application/json
+Authorization: Bearer {{adminLogin.response.body.token}}
+
+{
+    "title": "New Admin Movie",
+    "description": "A thrilling new adventure.",
+    "durationMins": 120,
+    "genre": ["Action", "Thriller"],
+    "language": ["English"],
+    "format": ["2D"],
+    "releaseDate": "2025-01-01",
+    "rating": "UA",
+    "cast": [{"name": "Admin Actor", "role": "Hero"}],
+    "director": "Admin Director",
+    "producer": "Admin Producer",
+    "posterUrl": "https://example.com/admin_movie_poster.jpg",
+    "trailerUrl": "https://example.com/admin_movie_trailer.mp4",
+    "imdbRating": 7.8,
+    "isUpcoming": true
+}
+
+###
+# @name adminCreateShow
+# Admin authentication required (Bearer Token from adminLogin request)
+# IMPORTANT: Use existing movieId, screenId.
+POST http://localhost:3000/api/admin/shows
+Content-Type: application/json
+Authorization: Bearer {{adminLogin.response.body.token}}
+
+{
+    "movieId": 1,
+    "screenId": 2,
+    "showDate": "2025-06-19",
+    "showTime": "20:00",
+    "basePrice": 220.00,
+    "format": "2D",
+    "language": "English"
+}
+
+###
+# @name adminUpdateShow
+# Admin authentication required (Bearer Token from adminLogin request)
+# IMPORTANT: Replace {SHOW_ID} with an actual show ID (e.g., from adminCreateShow response)
+PUT http://localhost:3000/api/admin/shows/1
+Content-Type: application/json
+Authorization: Bearer {{adminLogin.response.body.token}}
+
+{
+    "basePrice": 250.00,
+    "status": "active"
+}
+
+
+
+

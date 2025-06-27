@@ -1,0 +1,544 @@
+{
+  "info": {
+    "_postman_id": "cinema-booking-platform-collection",
+    "name": "Cinema Booking Platform API (Final Updated)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Final updated API collection with comprehensive error handling and current API status. IMPORTANT NOTES: 1) Booking creation may fail if seat pricing is missing for new shows - this is being addressed. 2) Rate limiting is enabled on auth endpoints. 3) All validation middleware is active. 4) Enhanced logging is implemented. 5) Seat pricing is automatically created when shows are created with valid seat layouts."
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000",
+      "type": "string"
+    },
+    {
+      "key": "adminToken",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "userToken",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "bookingId",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "showId",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "movieId",
+      "value": "1",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "Admin Login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const response = pm.response.json();",
+                  "    pm.collectionVariables.set('adminToken', response.token);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"admin@example.com\",\n  \"password\": \"adminpassword\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"]
+            }
+          }
+        },
+        {
+          "name": "User Login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const response = pm.response.json();",
+                  "    pm.collectionVariables.set('userToken', response.token);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"john@example.com\",\n  \"password\": \"securePassword123\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"]
+            }
+          }
+        },
+        {
+          "name": "User Register",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"mobile\": \"+919876543210\",\n  \"password\": \"securePassword123\",\n  \"dateOfBirth\": \"1990-01-01\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "register"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cities",
+      "item": [
+        {
+          "name": "Get All Cities",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/cities",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "cities"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Movies",
+      "item": [
+        {
+          "name": "Get All Movies",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/movies?city=1&language=English&genre=Action&format=IMAX",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "movies"],
+              "query": [
+                {
+                  "key": "city",
+                  "value": "1"
+                },
+                {
+                  "key": "format",
+                  "value": "IMAX"
+                },
+                {
+                  "key": "genre",
+                  "value": "Action"
+                },
+                {
+                  "key": "language",
+                  "value": "English"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Movie by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/movies/{{movieId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "movies", "{{movieId}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Upcoming Movies",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/movies/upcoming",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "movies", "upcoming"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Theaters",
+      "item": [
+        {
+          "name": "Get Theaters by City",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/theaters?cityId=1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "theaters"],
+              "query": [
+                {
+                  "key": "cityId",
+                  "value": "1"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Shows",
+      "item": [
+        {
+          "name": "Get Shows by Movie and City",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/shows?movieId={{movieId}}&cityId=1&date=2024-01-25",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "shows"],
+              "query": [
+                {
+                  "key": "movieId",
+                  "value": "{{movieId}}"
+                },
+                {
+                  "key": "cityId",
+                  "value": "1"
+                },
+                {
+                  "key": "date",
+                  "value": "2024-01-25"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Show Seats",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/shows/{{showId}}/seats",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "shows", "{{showId}}", "seats"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bookings",
+      "item": [
+        {
+          "name": "Create Booking",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "    const response = pm.response.json();",
+                  "    pm.collectionVariables.set('bookingId', response.bookingId);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{userToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"showId\": {{showId}},\n  \"seats\": [\"A1\", \"A2\"],\n  \"userDetails\": {\n    \"name\": \"John Doe\",\n    \"email\": \"john@example.com\",\n    \"mobile\": \"+919876543210\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings/create",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings", "create"]
+            }
+          }
+        },
+        {
+          "name": "Get All Bookings",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{userToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "F&B",
+      "item": [
+        {
+          "name": "Get F&B Menu",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/fnb/menu",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "fnb", "menu"]
+            }
+          }
+        },
+        {
+          "name": "Create F&B Order",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{userToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"bookingId\": \"{{bookingId}}\",\n  \"items\": [\n    {\n      \"itemId\": 1,\n      \"quantity\": 2\n    },\n    {\n      \"itemId\": 5,\n      \"quantity\": 2\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/fnb/order",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "fnb", "order"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "item": [
+        {
+          "name": "Initiate Payment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{userToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"bookingId\": \"{{bookingId}}\",\n  \"paymentMethod\": \"card\",\n  \"includesFnb\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/payments/initiate",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "payments", "initiate"]
+            }
+          }
+        },
+        {
+          "name": "Confirm Payment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{userToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"bookingId\": \"{{bookingId}}\",\n  \"transactionId\": \"TXN123456789\",\n  \"status\": \"success\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/payments/confirm",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "payments", "confirm"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "Create Movie",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{adminToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Test Movie\",\n  \"description\": \"A test movie for API testing\",\n  \"director\": \"Test Director\",\n  \"producer\": \"Test Producer\",\n  \"cast\": [\"Test Actor 1\", \"Test Actor 2\"],\n  \"genre\": [\"Action\", \"Drama\"],\n  \"language\": [\"English\"],\n  \"format\": [\"2D\", \"3D\", \"IMAX\"],\n  \"duration_mins\": 120,\n  \"rating\": \"PG-13\",\n  \"release_date\": \"2024-06-01\",\n  \"imdb_rating\": 7.5,\n  \"poster_url\": \"https://example.com/poster.jpg\",\n  \"trailer_url\": \"https://example.com/trailer.mp4\",\n  \"is_upcoming\": false\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/admin/movies",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "admin", "movies"]
+            }
+          }
+        },
+        {
+          "name": "Create Show",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{adminToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"movieId\": {{movieId}},\n  \"theaterId\": 1,\n  \"screenId\": 1,\n  \"showDate\": \"2024-02-01\",\n  \"showTime\": \"18:30\",\n  \"format\": \"IMAX\",\n  \"language\": \"English\",\n  \"basePrice\": 400\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/admin/shows",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "admin", "shows"]
+            }
+          }
+        },
+        {
+          "name": "Update Show",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{adminToken}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"basePrice\": 450,\n  \"showTime\": \"19:00\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/admin/shows/{{showId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "admin", "shows", "{{showId}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Occupancy Report",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{adminToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/admin/reports/occupancy",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "admin", "reports", "occupancy"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,4125 @@
+2025-06-21 12:15:24 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'getMovies')
+TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Stack: TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 12:15:24 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 21224,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 61599744,
+      "heapTotal": 32591872,
+      "heapUsed": 20325832,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 184821.312
+  },
+  "trace": [
+    {
+      "column": 39,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\routes\\movieRoutes.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1730,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 21,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:41:30 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'getMovies')
+TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Stack: TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:41:30 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 16196,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 61759488,
+      "heapTotal": 33116160,
+      "heapUsed": 20053504,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 189987.171
+  },
+  "trace": [
+    {
+      "column": 39,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\routes\\movieRoutes.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1730,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 21,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:42:28 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'getMovies')
+TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Stack: TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:42:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 1696,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 63160320,
+      "heapTotal": 33116160,
+      "heapUsed": 19911800,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190044.906
+  },
+  "trace": [
+    {
+      "column": 39,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\routes\\movieRoutes.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1730,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 21,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:42:35 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'getMovies')
+TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Stack: TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:42:35 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13316,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 62365696,
+      "heapTotal": 33378304,
+      "heapUsed": 19972432,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190051.734
+  },
+  "trace": [
+    {
+      "column": 39,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\routes\\movieRoutes.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1730,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 21,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:42:56 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'getMovies')
+TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Stack: TypeError: Cannot read properties of undefined (reading 'getMovies')
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\movieRoutes.js:10:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:12:21)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:42:56 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13456,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 62099456,
+      "heapTotal": 33116160,
+      "heapUsed": 19908984,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190073.609
+  },
+  "trace": [
+    {
+      "column": 39,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\routes\\movieRoutes.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1730,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 21,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:44:27 [ERROR]: uncaughtException: Cannot access 'validationChains' before initialization
+ReferenceError: Cannot access 'validationChains' before initialization
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\middleware\validation.js:189:8)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:8:48)
+Stack: ReferenceError: Cannot access 'validationChains' before initialization
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\middleware\validation.js:189:8)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:8:48)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:44:27 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 14228,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 60477440,
+      "heapTotal": 33378304,
+      "heapUsed": 16054504,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190164.093
+  },
+  "trace": [
+    {
+      "column": 8,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\middleware\\validation.js",
+      "function": null,
+      "line": 189,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1730,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 48,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:44:42 [ERROR]: uncaughtException: Cannot access 'validationChains' before initialization
+ReferenceError: Cannot access 'validationChains' before initialization
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\middleware\validation.js:189:8)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:8:48)
+Stack: ReferenceError: Cannot access 'validationChains' before initialization
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\middleware\validation.js:189:8)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:8:48)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:44:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 19024,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 59949056,
+      "heapTotal": 32591872,
+      "heapUsed": 16576264,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190179.046
+  },
+  "trace": [
+    {
+      "column": 8,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\middleware\\validation.js",
+      "function": null,
+      "line": 189,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1730,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 48,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:45:21 [ERROR]: uncaughtException: Cannot access 'validationChains' before initialization
+C:\Users\Dell\Music\cinemaBookingPlatform\src\middleware\validation.js:189
+    ...validationChains,
+       ^
+
+ReferenceError: Cannot access 'validationChains' before initialization
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\middleware\validation.js:189:8)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:8:48)
+Stack: C:\Users\Dell\Music\cinemaBookingPlatform\src\middleware\validation.js:189
+    ...validationChains,
+       ^
+
+ReferenceError: Cannot access 'validationChains' before initialization
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\middleware\validation.js:189:8)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:8:48)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:45:21 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 17532,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe"
+    ],
+    "memoryUsage": {
+      "rss": 61513728,
+      "heapTotal": 31805440,
+      "heapUsed": 21384160,
+      "external": 2300116,
+      "arrayBuffers": 18675
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190218.437
+  },
+  "trace": [
+    {
+      "column": 8,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\middleware\\validation.js",
+      "function": null,
+      "line": 189,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1730,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 48,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 8,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:50:36 [ERROR]: uncaughtException: Identifier 'parseSeatIdentifier' has already been declared
+C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:553
+function parseSeatIdentifier(seatId) {
+^
+
+SyntaxError: Identifier 'parseSeatIdentifier' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1662:18)
+    at Module._compile (node:internal/modules/cjs/loader:1704:20)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\bookingRoutes.js:3:27)
+Stack: C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:553
+function parseSeatIdentifier(seatId) {
+^
+
+SyntaxError: Identifier 'parseSeatIdentifier' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1662:18)
+    at Module._compile (node:internal/modules/cjs/loader:1704:20)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\bookingRoutes.js:3:27)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:50:35 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 29896,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 64425984,
+      "heapTotal": 33116160,
+      "heapUsed": 20975560,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190532.625
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1662,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1704,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\routes\\bookingRoutes.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:50:41 [ERROR]: uncaughtException: Identifier 'parseSeatIdentifier' has already been declared
+C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:553
+function parseSeatIdentifier(seatId) {
+^
+
+SyntaxError: Identifier 'parseSeatIdentifier' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1662:18)
+    at Module._compile (node:internal/modules/cjs/loader:1704:20)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\bookingRoutes.js:3:27)
+Stack: C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:553
+function parseSeatIdentifier(seatId) {
+^
+
+SyntaxError: Identifier 'parseSeatIdentifier' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1662:18)
+    at Module._compile (node:internal/modules/cjs/loader:1704:20)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\bookingRoutes.js:3:27)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:50:41 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 29088,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 64176128,
+      "heapTotal": 33116160,
+      "heapUsed": 20719424,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190538.015
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1662,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1704,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\routes\\bookingRoutes.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:50:51 [ERROR]: uncaughtException: Identifier 'parseSeatIdentifier' has already been declared
+C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:553
+function parseSeatIdentifier(seatId) {
+^
+
+SyntaxError: Identifier 'parseSeatIdentifier' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1662:18)
+    at Module._compile (node:internal/modules/cjs/loader:1704:20)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\bookingRoutes.js:3:27)
+Stack: C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:553
+function parseSeatIdentifier(seatId) {
+^
+
+SyntaxError: Identifier 'parseSeatIdentifier' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1662:18)
+    at Module._compile (node:internal/modules/cjs/loader:1704:20)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\Dell\Music\cinemaBookingPlatform\src\routes\bookingRoutes.js:3:27)
+Meta: {
+  "error": {},
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:50:51 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 10864,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 62865408,
+      "heapTotal": 32854016,
+      "heapUsed": 20686896,
+      "external": 2224955,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190548.375
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1662,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1704,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1895,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1465,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1282,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 235,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1487,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 135,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\routes\\bookingRoutes.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 13:55:52 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 13:55:52 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 17708,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66617344,
+      "heapTotal": 33378304,
+      "heapUsed": 16822120,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 190848.765
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:00:53 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:00:53 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 10972,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 64671744,
+      "heapTotal": 33378304,
+      "heapUsed": 16831792,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191149.843
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:01:00 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:01:00 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 4204,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66564096,
+      "heapTotal": 33116160,
+      "heapUsed": 16731088,
+      "external": 2244078,
+      "arrayBuffers": 18667
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191157.531
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:01:12 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:01:12 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8536,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 64532480,
+      "heapTotal": 33378304,
+      "heapUsed": 21536088,
+      "external": 2244078,
+      "arrayBuffers": 18667
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191169.218
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:02:29 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:02:29 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 18664,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65843200,
+      "heapTotal": 33378304,
+      "heapUsed": 21539504,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191245.671
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:02:41 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:02:41 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 22852,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66793472,
+      "heapTotal": 33378304,
+      "heapUsed": 21426496,
+      "external": 2244078,
+      "arrayBuffers": 18667
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191258.156
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:04:24 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:04:24 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 25592,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65622016,
+      "heapTotal": 33378304,
+      "heapUsed": 16799456,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191360.953
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:06:06 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:06:06 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20576,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 64966656,
+      "heapTotal": 33378304,
+      "heapUsed": 16791928,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191462.953
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:06:08 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:06:08 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 27732,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65900544,
+      "heapTotal": 33378304,
+      "heapUsed": 16853840,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191465.125
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:06:18 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:06:18 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 23476,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65265664,
+      "heapTotal": 33116160,
+      "heapUsed": 16664368,
+      "external": 2244078,
+      "arrayBuffers": 18635
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191475.218
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:07:02 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:07:02 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 1980,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 64618496,
+      "heapTotal": 33378304,
+      "heapUsed": 16849376,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 191518.75
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:17:42 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:17:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 21948,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65724416,
+      "heapTotal": 33378304,
+      "heapUsed": 16806752,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192159.343
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:17:45 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:17:45 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 29048,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65208320,
+      "heapTotal": 33378304,
+      "heapUsed": 16906392,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192162.5
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:17:51 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:17:51 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 25624,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65683456,
+      "heapTotal": 33378304,
+      "heapUsed": 16812336,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192168.218
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:17:54 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:17:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8144,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65187840,
+      "heapTotal": 33116160,
+      "heapUsed": 16795656,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192170.89
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:17:57 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:17:57 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 27888,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65794048,
+      "heapTotal": 33378304,
+      "heapUsed": 21551168,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192174.281
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:18:01 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:18:01 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 18564,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66072576,
+      "heapTotal": 33378304,
+      "heapUsed": 16919168,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192178.015
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:18:04 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:18:04 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 29548,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66088960,
+      "heapTotal": 33378304,
+      "heapUsed": 16815632,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192181.093
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:18:15 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:18:15 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 19816,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66486272,
+      "heapTotal": 33116160,
+      "heapUsed": 16716592,
+      "external": 2244078,
+      "arrayBuffers": 18667
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192191.687
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:18:24 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:18:24 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 15936,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66674688,
+      "heapTotal": 33116160,
+      "heapUsed": 21517112,
+      "external": 2244078,
+      "arrayBuffers": 18667
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192201.484
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:18:27 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:18:27 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 10748,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66117632,
+      "heapTotal": 33378304,
+      "heapUsed": 16828344,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192204.046
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:25:35 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:25:35 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24992,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65167360,
+      "heapTotal": 33640448,
+      "heapUsed": 21588560,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192632.484
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:25:39 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:25:39 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 4548,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65634304,
+      "heapTotal": 33378304,
+      "heapUsed": 21499208,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192635.953
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:26:13 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:26:13 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 25292,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66551808,
+      "heapTotal": 33378304,
+      "heapUsed": 21535136,
+      "external": 2244078,
+      "arrayBuffers": 18667
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192670.328
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:26:35 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:26:35 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 9096,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 64970752,
+      "heapTotal": 33116160,
+      "heapUsed": 20994768,
+      "external": 2244078,
+      "arrayBuffers": 18667
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192691.687
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:27:09 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:27:09 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13088,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65089536,
+      "heapTotal": 33378304,
+      "heapUsed": 16830288,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192725.671
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}
+2025-06-21 14:27:14 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (C:\Users\Dell\Music\cinemaBookingPlatform\node_modules\express\lib\application.js:635:24)
+    at C:\Users\Dell\Music\cinemaBookingPlatform\src\app.js:116:9
+Meta: {
+  "error": {
+    "code": "EADDRINUSE",
+    "errno": -4091,
+    "syscall": "listen",
+    "address": "::",
+    "port": 3000
+  },
+  "exception": true,
+  "date": "Sat Jun 21 2025 14:27:14 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7788,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65507328,
+      "heapTotal": 33378304,
+      "heapUsed": 16845408,
+      "external": 2270409,
+      "arrayBuffers": 18843
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 192730.765
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "node:net",
+      "function": "Server.setupListenHandle [as _listen2]",
+      "line": 1939,
+      "method": "setupListenHandle [as _listen2]",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:net",
+      "function": "listenInCluster",
+      "line": 1996,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:net",
+      "function": "Server.listen",
+      "line": 2101,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\node_modules\\express\\lib\\application.js",
+      "function": "Function.listen",
+      "line": 635,
+      "method": "listen",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "C:\\Users\\Dell\\Music\\cinemaBookingPlatform\\src\\app.js",
+      "function": null,
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ],
+  "service": "cinema-booking-api",
+  "version": "1.0.0"
+}

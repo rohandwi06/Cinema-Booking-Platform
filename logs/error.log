@@ -1,0 +1,351 @@
+2025-06-21 14:23:22 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.orderFnb (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\fnbController.js:85:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/fnb/order",
+    "userId": 2
+  }
+}
+2025-06-21 14:23:22 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.initiatePayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:45:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/initiate",
+    "userId": 2
+  }
+}
+2025-06-21 14:23:22 [ERROR]: Error with Context
+Stack: Error: No rows found: Payment or booking not found or not authorized.
+    at exports.confirmPayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:188:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Payment or booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/confirm",
+    "userId": 2
+  }
+}
+2025-06-21 14:26:51 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.orderFnb (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\fnbController.js:85:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/fnb/order",
+    "userId": 2
+  }
+}
+2025-06-21 14:26:51 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.initiatePayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:45:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/initiate",
+    "userId": 2
+  }
+}
+2025-06-21 14:26:52 [ERROR]: Error with Context
+Stack: Error: No rows found: Payment or booking not found or not authorized.
+    at exports.confirmPayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:188:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Payment or booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/confirm",
+    "userId": 2
+  }
+}
+2025-06-21 14:27:59 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.orderFnb (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\fnbController.js:85:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/fnb/order",
+    "userId": 2
+  }
+}
+2025-06-21 14:27:59 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.initiatePayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:45:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/initiate",
+    "userId": 2
+  }
+}
+2025-06-21 14:27:59 [ERROR]: Error with Context
+Stack: Error: No rows found: Payment or booking not found or not authorized.
+    at exports.confirmPayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:188:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Payment or booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/confirm",
+    "userId": 2
+  }
+}
+2025-06-21 14:33:53 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.orderFnb (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\fnbController.js:85:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/fnb/order",
+    "userId": 2
+  }
+}
+2025-06-21 14:33:53 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.initiatePayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:45:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/initiate",
+    "userId": 2
+  }
+}
+2025-06-21 14:33:53 [ERROR]: Error with Context
+Stack: Error: No rows found: Payment or booking not found or not authorized.
+    at exports.confirmPayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:188:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Payment or booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/confirm",
+    "userId": 2
+  }
+}
+2025-06-21 14:41:23 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.initiatePayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:45:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/initiate",
+    "userId": 2
+  }
+}
+2025-06-21 14:44:05 [ERROR]: Booking Failed
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "userId": 2,
+  "showId": 1,
+  "seats": [
+    "A1",
+    "A2"
+  ],
+  "reason": "Seats A1, A2 are already booked, held, or blocked.",
+  "event": "booking_failed"
+}
+2025-06-21 14:44:05 [ERROR]: Error with Context
+Stack: Error: Seats A1, A2 are already booked, held, or blocked.
+    at exports.createBooking (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:94:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "Seats A1, A2 are already booked, held, or blocked.",
+  "context": {
+    "method": "POST",
+    "url": "/api/bookings/create",
+    "userId": 2
+  }
+}
+2025-06-21 14:45:22 [ERROR]: Booking Failed
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "userId": 2,
+  "showId": 1,
+  "seats": [
+    "A1",
+    "A2"
+  ],
+  "reason": "Seats A1, A2 are already booked, held, or blocked.",
+  "event": "booking_failed"
+}
+2025-06-21 14:45:22 [ERROR]: Error with Context
+Stack: Error: Seats A1, A2 are already booked, held, or blocked.
+    at exports.createBooking (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:94:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "Seats A1, A2 are already booked, held, or blocked.",
+  "context": {
+    "method": "POST",
+    "url": "/api/bookings/create",
+    "userId": 2
+  }
+}
+2025-06-21 14:47:02 [ERROR]: Booking Failed
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "userId": 2,
+  "showId": 1,
+  "seats": [
+    "A1",
+    "A2"
+  ],
+  "reason": "Seats A1, A2 are already booked, held, or blocked.",
+  "event": "booking_failed"
+}
+2025-06-21 14:47:02 [ERROR]: Error with Context
+Stack: Error: Seats A1, A2 are already booked, held, or blocked.
+    at exports.createBooking (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:94:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "Seats A1, A2 are already booked, held, or blocked.",
+  "context": {
+    "method": "POST",
+    "url": "/api/bookings/create",
+    "userId": 2
+  }
+}
+2025-06-21 14:47:28 [ERROR]: Error with Context
+Stack: Error: No rows found: Booking not found or not authorized.
+    at exports.initiatePayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:45:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/initiate",
+    "userId": 2
+  }
+}
+2025-06-21 15:21:30 [ERROR]: Error with Context
+Stack: Error: F&B can only be added to a confirmed and paid booking.
+    at exports.orderFnb (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\fnbController.js:88:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "F&B can only be added to a confirmed and paid booking.",
+  "context": {
+    "method": "POST",
+    "url": "/api/fnb/order",
+    "userId": 3
+  }
+}
+2025-06-21 15:21:54 [ERROR]: Error with Context
+Stack: Error: No rows found: Payment or booking not found or not authorized.
+    at exports.confirmPayment (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\paymentController.js:188:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "No rows found: Payment or booking not found or not authorized.",
+  "context": {
+    "method": "POST",
+    "url": "/api/payments/confirm",
+    "userId": 3
+  }
+}
+2025-06-23 16:34:44 [ERROR]: Booking Failed
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "userId": 3,
+  "showId": 1,
+  "seats": [
+    "A1",
+    "A2"
+  ],
+  "reason": "Seats A1, A2 are already booked, held, or blocked.",
+  "event": "booking_failed"
+}
+2025-06-23 16:34:44 [ERROR]: Error with Context
+Stack: Error: Seats A1, A2 are already booked, held, or blocked.
+    at exports.createBooking (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\bookingController.js:94:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "Seats A1, A2 are already booked, held, or blocked.",
+  "context": {
+    "method": "POST",
+    "url": "/api/bookings/create",
+    "userId": 3
+  }
+}
+2025-06-23 16:37:02 [ERROR]: Error with Context
+Stack: Error: F&B can only be added to a confirmed and paid booking.
+    at exports.orderFnb (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\fnbController.js:88:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "F&B can only be added to a confirmed and paid booking.",
+  "context": {
+    "method": "POST",
+    "url": "/api/fnb/order",
+    "userId": 3
+  }
+}
+2025-06-23 16:37:35 [ERROR]: Error with Context
+Stack: Error: F&B can only be added to a confirmed and paid booking.
+    at exports.orderFnb (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\fnbController.js:88:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "F&B can only be added to a confirmed and paid booking.",
+  "context": {
+    "method": "POST",
+    "url": "/api/fnb/order",
+    "userId": 3
+  }
+}
+2025-06-23 16:38:08 [ERROR]: Error with Context
+Stack: Error: F&B can only be added to a confirmed and paid booking.
+    at exports.orderFnb (C:\Users\Dell\Music\cinemaBookingPlatform\src\controllers\fnbController.js:88:19)
+Meta: {
+  "service": "cinema-booking-api",
+  "version": "1.0.0",
+  "error": "F&B can only be added to a confirmed and paid booking.",
+  "context": {
+    "method": "POST",
+    "url": "/api/fnb/order",
+    "userId": 3
+  }
+}

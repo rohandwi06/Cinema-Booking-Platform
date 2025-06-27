@@ -1,0 +1,1 @@
+{"success":true,"screen":"Screen 1","seatLayout":{"regular":{"rows":["A"],"seatsPerRow":6,"price":200},"premium":{"rows":["B"],"seatsPerRow":4,"price":300},"recliner":{"rows":["C"],"seatsPerRow":4,"price":500}},"bookedSeats":[],"blockedSeats":["B1","C1","B1","C1"]}

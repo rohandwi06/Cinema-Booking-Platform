@@ -50,7 +50,7 @@ PORT=3000
 
 4. Initialize the database:
 ```bash
-npm run setup
+npm run init-db
 ```
 
 5. Start the server:

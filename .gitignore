@@ -1,2 +1,12 @@
+# Ignore Node Dependencies
 node_modules/
+
+# Ignore .env
 .env
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore databae files
+database/
